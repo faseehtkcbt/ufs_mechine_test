@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class AppPellette {
   static const Color txtBlack =  Colors.black;
-  static const Color greyColor = Color.fromRGBO(249, 249, 249,1);
+  static  Color greyColor = Colors.grey.shade200;
   static const Color lightBlue = Color.fromRGBO(229,241, 255, 1);
   static const Color txtWhite =  Colors.white;
   static Color darkGreyColor = Colors.grey.shade600;

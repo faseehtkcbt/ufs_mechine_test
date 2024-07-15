@@ -5,7 +5,8 @@ import '../../../../core/utils/app_text.dart';
 
 class AssessmentTab extends StatefulWidget {
   final String tabText;
-  const AssessmentTab({super.key, required this.tabText});
+  final Color color;
+  const AssessmentTab({super.key, required this.tabText, required this.color});
 
   @override
   State<AssessmentTab> createState() => _AssessmentTabState();
@@ -19,7 +20,7 @@ class _AssessmentTabState extends State<AssessmentTab> {
       padding: const EdgeInsets.all(10),
       height: 50,
       decoration: BoxDecoration(
-          color: AppPellette.lightBlue,borderRadius: BorderRadius.circular(10)
+          color: widget.color,borderRadius: BorderRadius.circular(10)
       ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,

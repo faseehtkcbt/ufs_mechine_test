@@ -79,8 +79,9 @@ class _DataAccesmentState extends State<DataAccesment> {
                                       onTap:(){
                                         context.read<SelectionCubit>().selectIndex(index);
                                       },
-                                      child: AssessmentTab(
-                                          tabText: Constants.assessments[index]),
+                                      child:  AssessmentTab(
+                                          tabText: Constants.assessments[index],
+                                      color: state.index == index ?AppPellette.greyColor:AppPellette.lightBlue,),
                                     ),
                                     Visibility(
                                         visible: index == state.index,
