@@ -67,17 +67,7 @@ class _AssessmentContainerState extends State<AssessmentContainer> {
               ),
             ],
           ),
-          // DropdownButton(
-          //   value: selectedItem,
-          //     items: Constants.items
-          //         .map((e) => DropdownMenuItem(
-          //             child: AppText(
-          //                 txt: e,
-          //                 textStyle: Theme.of(context).textTheme.bodySmall)))
-          //         .toList(),
-          //     onChanged: (value){
-          //       selectedItem = value;
-          //     })
+         
         ],
       ),
     );
